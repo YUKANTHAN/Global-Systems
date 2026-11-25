@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Info Sys Inc | Premium Hardware & Networking Solutions</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Announcements Bar -->
+    <div class="announcements-bar" id="announcementsBar">
+        <div class="announcements-track">
+            <a href="products.html" class="announcement-item">Enterprise Hardware Sales — <span>Up to 20% off on bulk
+                    orders</span></a>
+            <a href="services.html" class="announcement-item">New Service Centers — <span>Now available in 5+
+                    cities</span></a>
+            <a href="products.html" class="announcement-item">Gaming Peripherals — <span>Explore our latest gaming
+                    gear</span></a>
+            <a href="products.html" class="announcement-item">Enterprise Hardware Sales — <span>Up to 20% off on bulk
+                    orders</span></a>
+            <a href="services.html" class="announcement-item">New Service Centers — <span>Now available in 5+
+                    cities</span></a>
+            <a href="products.html" class="announcement-item">Gaming Peripherals — <span>Explore our latest gaming
+                    gear</span></a>
+        </div>
+        <button class="announcements-close" id="announcementsClose" aria-label="Close">&times;</button>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Company Logo" class="logo-img" />
+                <span class="logo-text">Global Info Sys Inc</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="products.html" class="nav-link">Products</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </nav>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Carousel – Image Only -->
+    <section class="hero-carousel" id="home">
+        <div class="carousel-track" id="carouselTrack">
+            <div class="carousel-slide active">
+                <img src="hero-tech-closeup.jpg" alt="25 Years of Tech Excellence" />
+            </div>
+            <div class="carousel-slide">
+                <img src="hero-server.jpg" alt="Enterprise Servers & Data Center" />
+            </div>
+            <div class="carousel-slide">
+                <img src="hero-networking.jpg" alt="Networking & IT Infrastructure" />
+            </div>
+            <div class="carousel-slide">
+                <img src="hero-cctv.jpg" alt="Tech Hardware & Components" />
+            </div>
+            <div class="carousel-slide">
+                <img src="hero-laptop.jpg" alt="Workstations & Laptops" />
+            </div>
+            <div class="carousel-slide">
+                <img src="hero-coding.jpg" alt="Software & IT Solutions" />
+            </div>
+        </div>
+        <button class="carousel-arrow prev" id="heroPrev" aria-label="Previous">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+        </button>
+        <button class="carousel-arrow next" id="heroNext" aria-label="Next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M9 18l6-6-6-6" />
+            </svg>
+        </button>
+        <div class="carousel-dots" id="heroDots"></div>
+    </section>
+
+    <!-- Marquee Tagline Bar -->
+    <div class="marquee-bar">
+        <div class="marquee-track">
+            <span>SINCE 2009</span><span>★</span><span>ALWAYS AHEAD</span><span>★</span>
+            <span>TRUSTED BY 200+ BUSINESSES</span><span>★</span><span>500+ HARDWARE UNITS
+                DELIVERED</span><span>★</span>
+            <span>24/7 SUPPORT</span><span>★</span><span>PREMIUM IT SOLUTIONS</span><span>★</span>
+            <span>SINCE 2009</span><span>★</span><span>ALWAYS AHEAD</span><span>★</span>
+            <span>TRUSTED BY 200+ BUSINESSES</span><span>★</span><span>500+ HARDWARE UNITS
+                DELIVERED</span><span>★</span>
+            <span>24/7 SUPPORT</span><span>★</span><span>PREMIUM IT SOLUTIONS</span><span>★</span>
+        </div>
+    </div>
+
+    <!-- Explore Products -->
+    <section class="explore-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Our Products</h2>
+            </div>
+            <div class="explore-grid">
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="Workstation.jpeg" alt="Workstations" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">Workstations</h3>
+                    </div>
+                </a>
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="Server.jpeg" alt="Servers" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">Servers</h3>
+                    </div>
+                </a>
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="networking.jpeg" alt="Networking" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">Networking</h3>
+                    </div>
+                </a>
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="cctv.jpeg" alt="CCTV" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">CCTV</h3>
+                    </div>
+                </a>
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="printer.jpeg" alt="Printers" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">Printers</h3>
+                    </div>
+                </a>
+                <a href="products.html" class="explore-card">
+                    <div class="explore-card-img">
+                        <img src="laptop.jpeg" alt="Laptops" />
+                    </div>
+                    <div class="explore-card-body">
+                        <h3 class="explore-card-title">Laptops</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming Section -->
+    <section class="gaming-section" id="gaming">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Gaming PCs & Accessories</h2>
+            </div>
+            <div class="gaming-grid">
+                <a href="products.html" class="gaming-card">
+                    <div class="gaming-card-img">
+                        <img src="gaming-desktops.jpeg" alt="Gaming Desktops" />
+                    </div>
+                    <div class="gaming-card-body">
+                        <h3 class="gaming-card-title">Gaming Desktops</h3>
+                        <span class="gaming-card-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="products.html" class="gaming-card">
+                    <div class="gaming-card-img">
+                        <img src="Zebronics_Gamers_Dream_banner-Desktop.jpeg" alt="Gaming Workstations" />
+                    </div>
+                    <div class="gaming-card-body">
+                        <h3 class="gaming-card-title">Gaming Workstations</h3>
+                        <span class="gaming-card-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="products.html" class="gaming-card">
+                    <div class="gaming-card-img">
+                        <img src="gaming-laptop.jpeg" alt="Gaming Laptops" />
+                    </div>
+                    <div class="gaming-card-body">
+                        <h3 class="gaming-card-title">Gaming Laptops</h3>
+                        <span class="gaming-card-btn">Shop Now</span>
+                    </div>
+                </a>
+                <a href="products.html" class="gaming-card">
+                    <div class="gaming-card-img">
+                        <img src="gaming-peripherals.jpeg" alt="Gaming Peripherals" />
+                    </div>
+                    <div class="gaming-card-body">
+                        <h3 class="gaming-card-title">Gaming Peripherals</h3>
+                        <span class="gaming-card-btn">Shop Now</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions -->
+    <section class="hp-products" id="solutions">
+        <div class="container">
+            <div class="section-header between">
+                <div>
+                    <h2 class="section-title">Solutions</h2>
+                </div>
+                <a href="services.html" class="view-all">View all →</a>
+            </div>
+            <div class="hp-grid">
+                <div class="hp-card">
+                    <div class="hp-card-img">
+                        <img src="firewall.jpeg" alt="Firewall Solutions" />
+                    </div>
+                    <div class="hp-card-body">
+                        <span class="hp-card-cat">Security</span>
+                        <h3 class="hp-card-title">Install & Maintain Firewalls</h3>
+                        <p class="hp-card-desc">Comprehensive firewall installation, configuration, and ongoing maintenance to protect your network from threats.</p>
+                    </div>
+                </div>
+                <div class="hp-card">
+                    <div class="hp-card-img">
+                        <img src="Server.jpeg" alt="Server Solutions" />
+                    </div>
+                    <div class="hp-card-body">
+                        <span class="hp-card-cat">Infrastructure</span>
+                        <h3 class="hp-card-title">Install & Maintain Servers & Storages</h3>
+                        <p class="hp-card-desc">End-to-end server and storage setup, RAID configuration, and maintenance for reliable data management.</p>
+                    </div>
+                </div>
+                <div class="hp-card">
+                    <div class="hp-card-img">
+                        <img src="networking.jpeg" alt="Networking Solutions" />
+                    </div>
+                    <div class="hp-card-body">
+                        <span class="hp-card-cat">Networking</span>
+                        <h3 class="hp-card-title">Install & Maintain Switches & AP's</h3>
+                        <p class="hp-card-desc">Professional installation and maintenance of switches, access points, and structured cabling for seamless connectivity.</p>
+                    </div>
+                </div>
+                <div class="hp-card">
+                    <div class="hp-card-img">
+                        <img src="printer.jpeg" alt="Infrastructure Solutions" />
+                    </div>
+                    <div class="hp-card-body">
+                        <span class="hp-card-cat">Infrastructure</span>
+                        <h3 class="hp-card-title">Install & Maintain UPS & Printers</h3>
+                        <p class="hp-card-desc">Reliable UPS backup and printer setup, configuration, and maintenance for uninterrupted office operations.</p>
+                    </div>
+                </div>
+                <div class="hp-card">
+                    <div class="hp-card-img">
+                        <img src="it-services.jpeg" alt="All IT Services" />
+                    </div>
+                    <div class="hp-card-body">
+                        <span class="hp-card-cat">Services</span>
+                        <h3 class="hp-card-title">All IT Related Services</h3>
+                        <p class="hp-card-desc">All types of IT-related services handled by us — from troubleshooting to complete infrastructure management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gaming PC Showcase -->
+    <section class="gaming-showcase">
+        <div class="container">
+            <h2 class="section-title showcase-title">Build Your Dream IT Setup</h2>
+            <div class="showcase-wrapper">
+                <img src="gaming-desktops.jpeg" alt="Gaming PC" class="showcase-img" />
+                <a href="products.html" class="btn btn-primary showcase-btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Latest Client Reviews</h2>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Excellent hardware quality and outstanding after-sales support. Our entire
+                        office infrastructure was set up seamlessly."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">T</div>
+                        <div>
+                            <strong>Tech Solutions Pvt Ltd</strong>
+                            <span>IT Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Reliable networking solutions that boosted our productivity. The team's
+                        expertise is unmatched in the region."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Vineet Malhotra</strong>
+                            <span>Business Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">"Impressive display and premium design on all products. Quick delivery and
+                        professional installation service."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">S</div>
+                        <div>
+                            <strong>Srinivas Enterprises</strong>
+                            <span>Corporate IT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Network of Trust -->
+    <section class="press-section">
+        <div class="container text-center">
+            <h3 class="press-title">Our Network of Trust</h3>
+            <div class="press-logos">
+                <img src="sbi-logo.svg" alt="State Bank of India" class="press-item" />
+                <img src="hdfc-logo.svg" alt="HDFC Bank" class="press-item" />
+                <img src="icici-logo.svg" alt="ICICI Bank" class="press-item" />
+                <img src="axis-logo.svg" alt="Axis Bank" class="press-item" />
+                <img src="bob-logo.svg" alt="Bank of Baroda" class="press-item" />
+                <img src="canara-logo.svg" alt="Canara Bank" class="press-item" />
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="cta-banner-bg"></div>
+        <div class="container">
+            <div class="cta-banner-content">
+                <h2 class="cta-banner-title">Have a Question? We're Here to Help.</h2>
+                <p class="cta-banner-desc">From enterprise hardware to networking solutions — our experts are ready to assist you.</p>
+                <div class="cta-banner-contact">
+                    <span class="cta-contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        98436 45703
+                    </span>
+                    <span class="cta-contact-item">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        arumugam.v@globalinfosysinc.com
+                    </span>
+                </div>
+                <a href="contact.html" class="btn btn-primary btn-lg cta-btn">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <div class="footer-brand">
+                        <a href="index.html" class="logo">
+                            <img src="logo.png" alt="Company Logo" class="logo-img" />
+                            <span class="logo-text">Global Info Sys Inc</span>
+                        </a>
+                        <p>Architecting robust infrastructure and delivering premium hardware solutions in Tirunelveli since 2009.</p>
+                    </div>
+                    <div class="footer-map-wrap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.7931543157757!2d77.6846369!3d8.7249583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b041118aca0c783%3A0xbf1667b30a370cd!2sGLOBAL%20INFOSYS%20INC.!5e0!3m2!1sen!2sin!4v1" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <div class="footer-col">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Product</h4>
+                            <ul>
+                                <li><a href="products.html">Hardware</a></li>
+                                <li><a href="products.html">Networking</a></li>
+                                <li><a href="products.html">CCTV & Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Support</h4>
+                            <ul>
+                                <li><a href="services.html">Service Center</a></li>
+                                <li><a href="services.html">Driver Downloads</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Warranty Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Tirunelveli Branch</h4>
+                            <ul class="footer-contact-list">
+                                <li>No 76/18, 1st Floor, Miskeen Plaza, East Car St, Town, Tirunelveli - 627 006</li>
+                                <li><a href="tel:9843645703">98436 45703</a></li>
+                                <li><a href="mailto:arumugam.v@globalinfosysinc.com">arumugam.v@globalinfosysinc.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Global Info Sys. All Rights Reserved. Engineered for Excellence.</p>
+                <span class="footer-made">Made by <a href="https://github.com/Yukanthan" target="_blank" rel="noopener">Yukanthan</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Full Screen Image Viewer -->
+    <div class="fullscreen-viewer" id="fullscreenViewer">
+        <button class="fullscreen-close" id="fullscreenClose" aria-label="Close">&times;</button>
+        <button class="fullscreen-arrow prev" id="fullscreenPrev" aria-label="Previous">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M15 18l-6-6 6-6" />
+            </svg>
+        </button>
+        <button class="fullscreen-arrow next" id="fullscreenNext" aria-label="Next">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M9 18l6-6-6-6" />
+            </svg>
+        </button>
+        <div class="fullscreen-content">
+            <img id="fullscreenImage" src="" alt="Full screen view" />
+        </div>
+        <div class="fullscreen-counter" id="fullscreenCounter"></div>
+        <div class="fullscreen-dots" id="fullscreenDots"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
